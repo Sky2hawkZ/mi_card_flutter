@@ -1,4 +1,4 @@
-# All ownership of this course and its creator. [www.appbrewery.co](https://www.appbrewery.co/)
+# All ownership of this course and its creator. This is merely my local clone of that particular project, if I need to officially fork it, please inform me
 
 ![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
