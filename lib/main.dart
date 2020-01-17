@@ -59,38 +59,35 @@ class LayoutChallange extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.stretch,
-            verticalDirection: VerticalDirection.down,
             children: <Widget>[
               Container(
                 width: 100,
                 height: 100,
                 color: Colors.red,
-                child: Text('Container 1'),
               ),
-              SizedBox(
-                height: 20,
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.yellow,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.yellowAccent,
+                  )
+                ],
               ),
               Container(
                 width: 100,
                 height: 100,
                 color: Colors.blue,
-                child: Text('Container 2'),
               ),
-              SizedBox(
-                height: 20,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.white,
-                child: Text('Container 3'),
-              ),
-              Container(
-                width: double.infinity,
-                height: 10,
-              )
             ],
           ),
         ),
