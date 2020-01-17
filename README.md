@@ -1,3 +1,5 @@
+# All Ownership of this course and its creator. [www.appbrewery.co](https://www.appbrewery.co/)
+
 ![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
 # Mi Card
